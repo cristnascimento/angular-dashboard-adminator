@@ -26,6 +26,11 @@
             "styles": [
               "src/styles.css"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/styles"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -124,5 +129,10 @@
   "defaultProject": "dashboard",
   "cli": {
     "analytics": "c3caaebd-f717-460b-b4f0-084a3aca1f6f"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
   }
 }
