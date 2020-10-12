@@ -1,11 +1,8 @@
-import * as $ from 'jquery';
-import loadGoogleMapsAPI  from 'load-google-maps-api';
+window.initMap = function () {
+    // `window.google.maps` available here
 
-export default (function () {
   if ($('#google-map').length > 0) {
-    loadGoogleMapsAPI({
-      key: 'AIzaSyDW8td30_gj6sGXjiMU0ALeMu1SDEwUnEA',
-    }).then(() => {
+
       const latitude  = 26.8206;
       const longitude = 30.8025;
       const mapZoom   = 5;
@@ -73,6 +70,6 @@ export default (function () {
         position : new google.maps.LatLng(latitude, longitude),
         visible  : true,
       });
-    });
+    
   }
-}())
+}

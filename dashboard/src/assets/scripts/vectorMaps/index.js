@@ -1,10 +1,6 @@
-import * as $ from 'jquery';
-import 'jvectormap';
-import 'jvectormap/jquery-jvectormap.css';
+import './jquery-jvectormap.min.js'
 import './jquery-jvectormap-world-mill.js';
-import { debounce } from 'lodash';
 
-export default (function () {
   const vectorMapInit = () => {
     if ($('#world-map-marker').length > 0) {
       // This is a hack, as the .empty() did not do the work
@@ -90,5 +86,4 @@ export default (function () {
   };
 
   vectorMapInit();
-  $(window).resize(debounce(vectorMapInit, 150));
-})();
+  $(window).resize(_.debounce(vectorMapInit, 150));
