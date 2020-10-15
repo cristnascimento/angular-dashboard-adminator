@@ -1,8 +1,5 @@
-import * as $ from 'jquery';
-import 'fullcalendar/dist/fullcalendar.min.js';
-import 'fullcalendar/dist/fullcalendar.min.css';
+//import './fullcalendar/dist/fullcalendar.min.js';
 
-export default (function () {
   const date = new Date();
   const d    = date.getDate();
   const m    = date.getMonth();
@@ -56,4 +53,3 @@ export default (function () {
       right  : 'today prev,next',
     },
   });
-}())
