@@ -7,7 +7,8 @@ import { EmailComponent } from './email/email.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'email', component: EmailComponent }
+  { path: 'email', component: EmailComponent },
+  { path: '', component: DashboardComponent },
 ];
 
 @NgModule({

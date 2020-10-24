@@ -1,6 +1,6 @@
 
 //const Skycons = SkyconsInit(window);
-
+console.log("loading scripts");
   const icons = new Skycons({ 'color': '#ff6849' });
   const list  = [
     'clear-day',
