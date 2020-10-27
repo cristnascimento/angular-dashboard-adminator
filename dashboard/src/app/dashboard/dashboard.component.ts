@@ -13,7 +13,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   constructor(@Inject(DOCUMENT) private document, private elementRef: ElementRef) { }
 
   ngOnInit(): void {
-    
+    //this.ngAfterViewInit();
   }
 
   ngAfterViewInit(): void {
