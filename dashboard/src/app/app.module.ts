@@ -7,6 +7,8 @@ import { EmailComponent } from './email/email.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderImportsComponent } from './header-imports/header-imports.component';
 import { FooterImportsComponent } from './footer-imports/footer-imports.component';
+import { PageLoaderComponent } from './page-loader/page-loader.component';
+import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterImportsComponent } from './footer-imports/footer-imports.componen
     DashboardComponent,
     EmailComponent,
     HeaderImportsComponent,
-    FooterImportsComponent
+    FooterImportsComponent,
+    PageLoaderComponent,
+    LeftSidebarComponent
   ],
   imports: [
     BrowserModule,
