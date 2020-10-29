@@ -9,6 +9,7 @@ import { HeaderImportsComponent } from './header-imports/header-imports.componen
 import { FooterImportsComponent } from './footer-imports/footer-imports.component';
 import { PageLoaderComponent } from './page-loader/page-loader.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
     HeaderImportsComponent,
     FooterImportsComponent,
     PageLoaderComponent,
-    LeftSidebarComponent
+    LeftSidebarComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
