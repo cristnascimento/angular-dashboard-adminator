@@ -10,6 +10,7 @@ import { FooterImportsComponent } from './footer-imports/footer-imports.componen
 import { PageLoaderComponent } from './page-loader/page-loader.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { LayoutComponent } from './layout/layout.component';
+import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LayoutComponent } from './layout/layout.component';
     FooterImportsComponent,
     PageLoaderComponent,
     LeftSidebarComponent,
-    LayoutComponent
+    LayoutComponent,
+    HeaderNavbarComponent
   ],
   imports: [
     BrowserModule,
