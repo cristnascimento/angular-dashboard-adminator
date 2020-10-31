@@ -11,6 +11,7 @@ import { PageLoaderComponent } from './page-loader/page-loader.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
+import { TopCardComponent } from './top-card/top-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
     PageLoaderComponent,
     LeftSidebarComponent,
     LayoutComponent,
-    HeaderNavbarComponent
+    HeaderNavbarComponent,
+    TopCardComponent
   ],
   imports: [
     BrowserModule,
