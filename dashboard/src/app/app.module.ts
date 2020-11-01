@@ -16,6 +16,7 @@ import { GoogleMapsComponent } from './google-maps/google-maps.component';
 import { MonthlyStatsComponent } from './monthly-stats/monthly-stats.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { SalesReportComponent } from './sales-report/sales-report.component';
+import { WeatherComponent } from './weather/weather.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SalesReportComponent } from './sales-report/sales-report.component';
     GoogleMapsComponent,
     MonthlyStatsComponent,
     TodoListComponent,
-    SalesReportComponent
+    SalesReportComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
