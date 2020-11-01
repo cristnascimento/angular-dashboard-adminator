@@ -13,6 +13,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { TopCardComponent } from './top-card/top-card.component';
 import { GoogleMapsComponent } from './google-maps/google-maps.component';
+import { MonthlyStatsComponent } from './monthly-stats/monthly-stats.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { GoogleMapsComponent } from './google-maps/google-maps.component';
     LayoutComponent,
     HeaderNavbarComponent,
     TopCardComponent,
-    GoogleMapsComponent
+    GoogleMapsComponent,
+    MonthlyStatsComponent
   ],
   imports: [
     BrowserModule,
