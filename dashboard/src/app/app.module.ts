@@ -14,6 +14,7 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { TopCardComponent } from './top-card/top-card.component';
 import { GoogleMapsComponent } from './google-maps/google-maps.component';
 import { MonthlyStatsComponent } from './monthly-stats/monthly-stats.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MonthlyStatsComponent } from './monthly-stats/monthly-stats.component';
     HeaderNavbarComponent,
     TopCardComponent,
     GoogleMapsComponent,
-    MonthlyStatsComponent
+    MonthlyStatsComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
