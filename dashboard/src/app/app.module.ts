@@ -12,6 +12,7 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { TopCardComponent } from './top-card/top-card.component';
+import { GoogleMapsComponent } from './google-maps/google-maps.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TopCardComponent } from './top-card/top-card.component';
     LeftSidebarComponent,
     LayoutComponent,
     HeaderNavbarComponent,
-    TopCardComponent
+    TopCardComponent,
+    GoogleMapsComponent
   ],
   imports: [
     BrowserModule,
