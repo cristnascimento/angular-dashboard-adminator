@@ -17,28 +17,21 @@
 
     <!-- @App Content -->
     <!-- =================================================== -->
-    <app-layout>
-    <div>
-      <app-left-sidebar></app-left-sidebar>
-
-      <!-- #Main ============================ -->
-      <div class="page-container">
-        <app-header-navbar></app-header-navbar>
-        <!-- ### $App Screen Content ### -->
-        <main class='main-content bgc-grey-100'>
-          <div id='mainContent'>
+       
             <div class="row gap-20 masonry pos-r">
               
               <div class="masonry-sizer col-md-6"></div>
     
-              <app-top-card></app-top-card>
+              <div class="masonry-item  w-100">
+                <app-top-card></app-top-card>
+              </div>
  
               <div class="masonry-item col-12">
                 <!-- #Site Visits ==================== -->
                 <div class="bd bgc-white">
                   <app-google-maps></app-google-maps>
                 </div>
-              </div>
+              </div>              
               
               <!-- #Monthly Stats ==================== -->
               <div class="masonry-item col-md-6">
@@ -62,13 +55,3 @@
                 <app-chat></app-chat>
               </div>
             </div>
-          </div>
-        </main>
-
-        <!-- ### $App Screen Footer ### -->
-        <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
-          <span>Copyright © 2019 Designed by <a href="https://colorlib.com" target='_blank' title="Colorlib">Colorlib</a>. All rights reserved.</span>
-        </footer>
-      </div>
-    </div>
-  </app-layout>
