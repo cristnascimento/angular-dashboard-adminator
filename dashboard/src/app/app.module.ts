@@ -17,6 +17,7 @@ import { MonthlyStatsComponent } from './monthly-stats/monthly-stats.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { SalesReportComponent } from './sales-report/sales-report.component';
 import { WeatherComponent } from './weather/weather.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { WeatherComponent } from './weather/weather.component';
     MonthlyStatsComponent,
     TodoListComponent,
     SalesReportComponent,
-    WeatherComponent
+    WeatherComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
