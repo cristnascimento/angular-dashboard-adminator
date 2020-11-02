@@ -1,57 +1,37 @@
-     <!-- @TOC -->
-    <!-- =================================================== -->
-    <!--
-      + @Page Loader
-      + @App Content
-          - #Left Sidebar
-              > $Sidebar Header
-              > $Sidebar Menu
+<div class="row gap-20 masonry pos-r">
 
-          - #Main
-              > $Topbar
-              > $App Screen Content
-    -->
+  <div class="masonry-sizer col-md-6"></div>
 
-    <!-- @Page Loader -->
-    <!-- =================================================== -->
+  <div class="masonry-item  w-100">
+    <app-top-card></app-top-card>
+  </div>
 
-    <!-- @App Content -->
-    <!-- =================================================== -->
-       
-            <div class="row gap-20 masonry pos-r">
-              
-              <div class="masonry-sizer col-md-6"></div>
-    
-              <div class="masonry-item  w-100">
-                <app-top-card></app-top-card>
-              </div>
- 
-              <div class="masonry-item col-12">
-                <!-- #Site Visits ==================== -->
-                <div class="bd bgc-white">
-                  <app-google-maps></app-google-maps>
-                </div>
-              </div>              
-              
-              <!-- #Monthly Stats ==================== -->
-              <div class="masonry-item col-md-6">
-                <app-monthly-stats></app-monthly-stats>
-              </div>
+  <div class="masonry-item col-12">
+    <!-- #Site Visits ==================== -->
+    <div class="bd bgc-white">
+      <app-google-maps></app-google-maps>
+    </div>
+  </div>              
 
-              <div class="masonry-item col-md-6">
-                <!-- #Todo ==================== -->
-                <app-todo-list></app-todo-list>
-              </div>
-              <div class="masonry-item col-md-6">
-                <!-- #Sales Report ==================== -->
-                <app-sales-report></app-sales-report>
-              </div>
-              <div class="masonry-item col-md-6">
-                <!-- #Weather ==================== -->
-                <app-weather></app-weather>
-              </div>
-              <div class="masonry-item col-md-6">
-                <!-- #Chat ==================== -->
-                <app-chat></app-chat>
-              </div>
-            </div>
+  <!-- #Monthly Stats ==================== -->
+  <div class="masonry-item col-md-6">
+    <app-monthly-stats></app-monthly-stats>
+  </div>
+
+  <div class="masonry-item col-md-6">
+    <!-- #Todo ==================== -->
+    <app-todo-list></app-todo-list>
+  </div>
+  <div class="masonry-item col-md-6">
+    <!-- #Sales Report ==================== -->
+    <app-sales-report></app-sales-report>
+  </div>
+  <div class="masonry-item col-md-6">
+    <!-- #Weather ==================== -->
+    <app-weather></app-weather>
+  </div>
+  <div class="masonry-item col-md-6">
+    <!-- #Chat ==================== -->
+    <app-chat></app-chat>
+  </div>
+</div>
