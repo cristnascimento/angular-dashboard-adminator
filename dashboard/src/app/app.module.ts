@@ -18,6 +18,7 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { SalesReportComponent } from './sales-report/sales-report.component';
 import { WeatherComponent } from './weather/weather.component';
 import { ChatComponent } from './chat/chat.component';
+import { ComposeComponent } from './compose/compose.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ChatComponent } from './chat/chat.component';
     TodoListComponent,
     SalesReportComponent,
     WeatherComponent,
-    ChatComponent
+    ChatComponent,
+    ComposeComponent
   ],
   imports: [
     BrowserModule,
