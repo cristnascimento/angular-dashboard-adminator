@@ -19,6 +19,7 @@ import { SalesReportComponent } from './sales-report/sales-report.component';
 import { WeatherComponent } from './weather/weather.component';
 import { ChatComponent } from './chat/chat.component';
 import { ComposeComponent } from './compose/compose.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ComposeComponent } from './compose/compose.component';
     SalesReportComponent,
     WeatherComponent,
     ChatComponent,
-    ComposeComponent
+    ComposeComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
