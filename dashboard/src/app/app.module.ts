@@ -20,6 +20,7 @@ import { WeatherComponent } from './weather/weather.component';
 import { ChatComponent } from './chat/chat.component';
 import { ComposeComponent } from './compose/compose.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { ChartsComponent } from './charts/charts.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     WeatherComponent,
     ChatComponent,
     ComposeComponent,
-    CalendarComponent
+    CalendarComponent,
+    ChartsComponent
   ],
   imports: [
     BrowserModule,
