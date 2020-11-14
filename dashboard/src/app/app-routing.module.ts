@@ -7,6 +7,7 @@ import { EmailComponent } from './email/email.component';
 import { ComposeComponent } from './compose/compose.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ChatComponent } from './chat/chat.component';
+import { ChartsComponent } from './charts/charts.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'compose', component: ComposeComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'chat', component: ChatComponent },
+  { path: 'charts', component: ChartsComponent },
   { path: '', component: DashboardComponent },
 ];
 
