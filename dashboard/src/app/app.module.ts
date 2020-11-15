@@ -21,6 +21,7 @@ import { ChatComponent } from './chat/chat.component';
 import { ComposeComponent } from './compose/compose.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ChartsComponent } from './charts/charts.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ChartsComponent } from './charts/charts.component';
     ChatComponent,
     ComposeComponent,
     CalendarComponent,
-    ChartsComponent
+    ChartsComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
