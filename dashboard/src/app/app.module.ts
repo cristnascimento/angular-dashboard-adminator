@@ -22,6 +22,7 @@ import { ComposeComponent } from './compose/compose.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ChartsComponent } from './charts/charts.component';
 import { FormsComponent } from './forms/forms.component';
+import { UiElementsComponent } from './ui-elements/ui-elements.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { FormsComponent } from './forms/forms.component';
     ComposeComponent,
     CalendarComponent,
     ChartsComponent,
-    FormsComponent
+    FormsComponent,
+    UiElementsComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { ChatComponent } from './chat/chat.component';
 import { ChartsComponent } from './charts/charts.component';
 import { FormsComponent } from './forms/forms.component';
+import { UiElementsComponent } from './ui-elements/ui-elements.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'chat', component: ChatComponent },
   { path: 'charts', component: ChartsComponent },
   { path: 'forms', component: FormsComponent },
+  { path: 'ui-elements', component: UiElementsComponent },
   { path: '', component: DashboardComponent },
 ];
 
