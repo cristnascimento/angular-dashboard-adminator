@@ -11,6 +11,7 @@ import { ChartsComponent } from './charts/charts.component';
 import { FormsComponent } from './forms/forms.component';
 import { UiElementsComponent } from './ui-elements/ui-elements.component';
 import { BasicTableComponent } from './basic-table/basic-table.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: 'charts', component: ChartsComponent },
   { path: 'forms', component: FormsComponent },
   { path: 'ui-elements', component: UiElementsComponent },
-  { path: 'basic-table', component: BasicTableComponent  },
+  { path: 'basic-table', component: BasicTableComponent },
+  { path: 'datatable', component: DatatableComponent },
   { path: '', component: DashboardComponent },
 ];
 
