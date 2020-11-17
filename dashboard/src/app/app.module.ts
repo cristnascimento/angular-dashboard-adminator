@@ -24,6 +24,7 @@ import { ChartsComponent } from './charts/charts.component';
 import { FormsComponent } from './forms/forms.component';
 import { UiElementsComponent } from './ui-elements/ui-elements.component';
 import { BasicTableComponent } from './basic-table/basic-table.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { BasicTableComponent } from './basic-table/basic-table.component';
     ChartsComponent,
     FormsComponent,
     UiElementsComponent,
-    BasicTableComponent
+    BasicTableComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,
