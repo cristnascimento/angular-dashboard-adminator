@@ -23,6 +23,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { ChartsComponent } from './charts/charts.component';
 import { FormsComponent } from './forms/forms.component';
 import { UiElementsComponent } from './ui-elements/ui-elements.component';
+import { BasicTableComponent } from './basic-table/basic-table.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { UiElementsComponent } from './ui-elements/ui-elements.component';
     CalendarComponent,
     ChartsComponent,
     FormsComponent,
-    UiElementsComponent
+    UiElementsComponent,
+    BasicTableComponent
   ],
   imports: [
     BrowserModule,
