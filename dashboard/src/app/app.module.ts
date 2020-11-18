@@ -25,6 +25,7 @@ import { FormsComponent } from './forms/forms.component';
 import { UiElementsComponent } from './ui-elements/ui-elements.component';
 import { BasicTableComponent } from './basic-table/basic-table.component';
 import { DatatableComponent } from './datatable/datatable.component';
+import { GoogleMapComponent } from './google-map/google-map.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { DatatableComponent } from './datatable/datatable.component';
     FormsComponent,
     UiElementsComponent,
     BasicTableComponent,
-    DatatableComponent
+    DatatableComponent,
+    GoogleMapComponent
   ],
   imports: [
     BrowserModule,
