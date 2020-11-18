@@ -26,6 +26,7 @@ import { UiElementsComponent } from './ui-elements/ui-elements.component';
 import { BasicTableComponent } from './basic-table/basic-table.component';
 import { DatatableComponent } from './datatable/datatable.component';
 import { GoogleMapComponent } from './google-map/google-map.component';
+import { VectorMapComponent } from './vector-map/vector-map.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { GoogleMapComponent } from './google-map/google-map.component';
     UiElementsComponent,
     BasicTableComponent,
     DatatableComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    VectorMapComponent
   ],
   imports: [
     BrowserModule,
