@@ -12,6 +12,7 @@ import { FormsComponent } from './forms/forms.component';
 import { UiElementsComponent } from './ui-elements/ui-elements.component';
 import { BasicTableComponent } from './basic-table/basic-table.component';
 import { DatatableComponent } from './datatable/datatable.component';
+import { GoogleMapComponent } from './google-map/google-map.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'ui-elements', component: UiElementsComponent },
   { path: 'basic-table', component: BasicTableComponent },
   { path: 'datatable', component: DatatableComponent },
+  { path: 'google-maps', component: GoogleMapComponent },
   { path: '', component: DashboardComponent },
 ];
 
