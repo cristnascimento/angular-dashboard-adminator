@@ -29,6 +29,7 @@ import { GoogleMapComponent } from './google-map/google-map.component';
 import { VectorMapComponent } from './vector-map/vector-map.component';
 import { BlankComponent } from './blank/blank.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ServerErrorComponent } from './server-error/server-error.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     GoogleMapComponent,
     VectorMapComponent,
     BlankComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ServerErrorComponent
   ],
   imports: [
     BrowserModule,
