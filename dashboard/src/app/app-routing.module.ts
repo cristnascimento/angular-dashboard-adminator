@@ -13,6 +13,7 @@ import { UiElementsComponent } from './ui-elements/ui-elements.component';
 import { BasicTableComponent } from './basic-table/basic-table.component';
 import { DatatableComponent } from './datatable/datatable.component';
 import { GoogleMapComponent } from './google-map/google-map.component';
+import { VectorMapComponent } from './vector-map/vector-map.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'basic-table', component: BasicTableComponent },
   { path: 'datatable', component: DatatableComponent },
   { path: 'google-maps', component: GoogleMapComponent },
+  { path: 'vector-maps', component: VectorMapComponent },
   { path: '', component: DashboardComponent },
 ];
 
