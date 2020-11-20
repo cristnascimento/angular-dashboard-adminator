@@ -30,6 +30,7 @@ import { VectorMapComponent } from './vector-map/vector-map.component';
 import { BlankComponent } from './blank/blank.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ServerErrorComponent } from './server-error/server-error.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { ServerErrorComponent } from './server-error/server-error.component';
     VectorMapComponent,
     BlankComponent,
     NotFoundComponent,
-    ServerErrorComponent
+    ServerErrorComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
