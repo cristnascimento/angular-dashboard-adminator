@@ -31,6 +31,7 @@ import { BlankComponent } from './blank/blank.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ServerErrorComponent } from './server-error/server-error.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { SignInComponent } from './sign-in/sign-in.component';
     BlankComponent,
     NotFoundComponent,
     ServerErrorComponent,
-    SignInComponent
+    SignInComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
