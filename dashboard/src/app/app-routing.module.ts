@@ -15,6 +15,7 @@ import { DatatableComponent } from './datatable/datatable.component';
 import { GoogleMapComponent } from './google-map/google-map.component';
 import { VectorMapComponent } from './vector-map/vector-map.component';
 import { BlankComponent } from './blank/blank.component';
+import { ServerErrorComponent } from './server-error/server-error.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'google-maps', component: GoogleMapComponent },
   { path: 'vector-maps', component: VectorMapComponent },
   { path: 'blank', component: BlankComponent },
+  { path: '500', component: ServerErrorComponent },
   { path: '', component: DashboardComponent },
 ];
 
