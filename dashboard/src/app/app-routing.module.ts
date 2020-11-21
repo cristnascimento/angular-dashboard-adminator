@@ -18,6 +18,7 @@ import { BlankComponent } from './blank/blank.component';
 import { ServerErrorComponent } from './server-error/server-error.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: '500', component: ServerErrorComponent },
   { path: '404', component: NotFoundComponent },
   { path: 'signin', component: SignInComponent },
+  { path: 'signup', component: SignUpComponent },
   { path: '', component: DashboardComponent },
 ];
 
