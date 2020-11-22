@@ -1,5 +1,6 @@
 import { Inject, Component, ElementRef, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-layout',
@@ -20,7 +21,7 @@ export class LayoutComponent implements OnInit, AfterViewInit {
     console.log("Dashboard initiated")
     
     let urls = [
-    {type:"text/javascript", src:"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js", integrity:"", crossorigin: ""},
+    //{type:"text/javascript", src:"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js", integrity:"", crossorigin: ""},
     {type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js", integrity:"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1", crossorigin:"anonymous"},
     {type:"text/javascript", src:"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",integrity:"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM", crossorigin:"anonymous"},
     {type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js", integrity:"sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==", crossorigin:"anonymous"},
@@ -36,7 +37,7 @@ export class LayoutComponent implements OnInit, AfterViewInit {
     {type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js", integrity:"sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==", crossorigin:"anonymous"},
     {type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js", integrity:"sha512-o0rWIsZigOfRAgBxl4puyd0t6YKzeAw9em/29Ag7lhCQfaaua/mDwnpE2PVzwqJ08N7/wqrgdjc2E0mwdSY2Tg==", crossorigin:"anonymous"},
     {type:"module", src:"/assets/scripts/index.js"},
-    {type:"module", src:"/assets/scripts/fullcalendar/index.js"}
+    //{type:"module", src:"/assets/scripts/fullcalendar/index.js"}
   ];
 
   urls.forEach( item => {
