@@ -41,7 +41,8 @@
               "./node_modules/chart.js/dist/Chart.min.js",
               "./node_modules/jquery-sparkline/jquery.sparkline.min.js",
               "./node_modules/lodash/lodash.min.js",
-              "./node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"
+              "./node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js",
+              "./node_modules/skycons/skycons.js"
             ]
           },
           "configurations": {
