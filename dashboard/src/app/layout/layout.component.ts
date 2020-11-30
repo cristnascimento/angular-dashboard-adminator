@@ -35,7 +35,7 @@ export class LayoutComponent implements OnInit, AfterViewInit {
     {type:"text/javascript", src:"/assets/scripts/googleMaps/index.js"},
     {type:"text/javascript", src:"https://maps.googleapis.com/maps/api/js?key=AIzaSyDW8td30_gj6sGXjiMU0ALeMu1SDEwUnEA&callback=initMap"},
     //{type:"text/javascript",src:"https://cdn.datatables.net/v/dt/dt-1.10.22/datatables.min.js"},
-    {type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js", integrity:"sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==", crossorigin:"anonymous"},
+    //{type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js", integrity:"sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==", crossorigin:"anonymous"},
     {type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js", integrity:"sha512-o0rWIsZigOfRAgBxl4puyd0t6YKzeAw9em/29Ag7lhCQfaaua/mDwnpE2PVzwqJ08N7/wqrgdjc2E0mwdSY2Tg==", crossorigin:"anonymous"},
     {type:"module", src:"/assets/scripts/index.js"},
     //{type:"module", src:"/assets/scripts/fullcalendar/index.js"}

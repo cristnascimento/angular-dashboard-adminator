@@ -13,7 +13,7 @@ export class DatatableComponent implements OnInit {
 
   ngOnInit(): void {
     $('#dataTable').DataTable();
-  console.log("calling datatable from datatable");
+    console.log("calling datatable from datatable");
   }
 
   ngAfterViewInit(): void {

@@ -7,7 +7,7 @@ import './sidebar/index.js';
 import './skycons/index.js';
 import './vectorMaps/index.js';
 import './chat/index.js';
-import './datatable/index.js';
+//import './datatable/index.js';
 //import './datepicker/index.js';
 import './email/index.js';
 //import './fullcalendar/index.js';

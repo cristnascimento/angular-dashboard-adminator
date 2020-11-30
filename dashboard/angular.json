@@ -44,7 +44,8 @@
               "./node_modules/lodash/lodash.min.js",
               "./node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js",
               "./node_modules/skycons/skycons.js",
-              "./node_modules/datatables/media/js/jquery.dataTables.min.js"
+              "./node_modules/datatables/media/js/jquery.dataTables.min.js",
+              "./node_modules/moment/moment.js"
             ]
           },
           "configurations": {
