@@ -2,12 +2,14 @@ import { Inject, Component, ElementRef, OnInit, ViewChild, AfterViewInit } from 
 import { DOCUMENT } from '@angular/common';
 import * as $ from 'jquery';
 import * as _ from 'lodash';
+import Masonry from 'masonry-layout';
+import { initCharts } from './index';
 
 @Component({
   selector: 'app-layout',
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss']
-})
+}) 
 export class LayoutComponent implements OnInit, AfterViewInit {
   @ViewChild("search1",  {static: false}) searchInput: ElementRef;
   status: boolean = false;
@@ -16,6 +18,18 @@ export class LayoutComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     //this.ngAfterViewInit();
+  }
+
+  func_masonry(): void {
+    window.addEventListener('load', () => {
+      if ($('.masonry').length > 0) {
+        new Masonry('.masonry', {
+          itemSelector: '.masonry-item',
+          columnWidth: '.masonry-sizer',
+          percentPosition: true,
+        });
+      }
+    });
   }
 
   ngAfterViewInit(): void {
@@ -60,6 +74,8 @@ export class LayoutComponent implements OnInit, AfterViewInit {
       console.log("adding defer")
     }
     this.elementRef.nativeElement.appendChild(s);
+    this.func_masonry();
+    initCharts();
   });
 
   }

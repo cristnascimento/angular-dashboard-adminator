@@ -1,4 +1,4 @@
-import './masonry/index.js';
+//import './masonry/index.js';
 import './charts/index.js';
 import './popover/index.js';
 import './scrollbar/index.js';
