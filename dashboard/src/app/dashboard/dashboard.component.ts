@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import {initCharts} from './index';
+import {initEasyPieChart} from './easyPieChart/index';
 
 @Component({
   selector: 'app-dashboard',
@@ -15,6 +16,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     initCharts();
+    initEasyPieChart();
   }
 
 }
