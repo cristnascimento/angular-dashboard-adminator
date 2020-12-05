@@ -1,9 +1,9 @@
 import { Inject, Component, ElementRef, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
-import * as $ from 'jquery';
 import * as _ from 'lodash';
 import Masonry from 'masonry-layout';
 import { initCharts } from './index';
+declare var $: any;
 
 @Component({
   selector: 'app-layout',
@@ -30,6 +30,11 @@ export class LayoutComponent implements OnInit, AfterViewInit {
         });
       }
     });
+  }
+
+  func_popover(): void {
+    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
   }
 
   ngAfterViewInit(): void {
@@ -74,10 +79,11 @@ export class LayoutComponent implements OnInit, AfterViewInit {
       console.log("adding defer")
     }
     this.elementRef.nativeElement.appendChild(s);
-    this.func_masonry();
-    initCharts();
+    
   });
-
+  this.func_masonry();
+  this.func_popover();
+  initCharts();
   }
 
   clickEvent(e): void {
