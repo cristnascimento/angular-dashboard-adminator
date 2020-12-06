@@ -1,7 +1,7 @@
 //import './masonry/index.js';
 //import './charts/index.js';
 //import './popover/index.js';
-import './scrollbar/index.js';
+//import './scrollbar/index.js';
 import './search/index.js';
 import './sidebar/index.js';
 import './skycons/index.js';
