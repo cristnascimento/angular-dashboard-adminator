@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import * as $ from 'jquery';
 import 'datatables';
+
+declare var $: any;
 
 @Component({
   selector: 'app-datatable',
