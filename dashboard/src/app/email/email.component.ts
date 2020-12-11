@@ -2,6 +2,8 @@ import { Inject, Component, ElementRef, OnInit, ViewChild, AfterViewInit } from 
 import { DOCUMENT } from '@angular/common';
 import PerfectScrollbar from 'perfect-scrollbar';
 
+declare var $: any;
+
 @Component({
   selector: 'app-email',
   templateUrl: './email.component.html',
@@ -32,6 +34,16 @@ export class EmailComponent implements OnInit, AfterViewInit {
         new PerfectScrollbar(el);
       });
     }
+
+    $('.email-side-toggle').on('click', e => {
+      $('.email-app').toggleClass('side-active');
+      e.preventDefault();
+    });
+  
+    $('.email-list-item, .back-to-mailbox').on('click', e => {
+      $('.email-content').toggleClass('open');
+      e.preventDefault();
+    });
   }
 }
 
