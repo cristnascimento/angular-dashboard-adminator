@@ -3,6 +3,8 @@ import { DOCUMENT } from '@angular/common';
 import * as _ from 'lodash';
 import Masonry from 'masonry-layout';
 import { initCharts } from './index';
+import { initUtils } from './utils';
+
 declare var $: any;
 
 @Component({
@@ -51,8 +53,8 @@ export class LayoutComponent implements OnInit, AfterViewInit {
     //{type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.5.0/perfect-scrollbar.min.js",integrity:"sha512-yUNtg0k40IvRQNR20bJ4oH6QeQ/mgs9Lsa6V+3qxTj58u2r+JiAYOhOW0o+ijuMmqCtCEg7LZRA+T4t84/ayVA==",crossorigin:"anonymous"},
     //{type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js",integrity:"sha512-ChQiOC9OBUvQ75KLv3+YRxCQLV1bSWnGfcSdaP1v3iu6XSkmge+eXCu3lcV+O+Uvdjb+LGMZd/KAvV4rkEfbzw==", crossorigin:"anonymous"},
     
-    {type:"text/javascript", src:"/assets/scripts/googleMaps/index.js"},
-    {type:"text/javascript", src:"https://maps.googleapis.com/maps/api/js?key=AIzaSyDW8td30_gj6sGXjiMU0ALeMu1SDEwUnEA&callback=initMap"},
+    //{type:"text/javascript", src:"/assets/scripts/googleMaps/index.js"},
+    //{type:"text/javascript", src:"https://maps.googleapis.com/maps/api/js?key=AIzaSyDW8td30_gj6sGXjiMU0ALeMu1SDEwUnEA&callback=initMap"},
     //{type:"text/javascript",src:"https://cdn.datatables.net/v/dt/dt-1.10.22/datatables.min.js"},
     //{type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js", integrity:"sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==", crossorigin:"anonymous"},
     //{type:"text/javascript", src:"https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js", integrity:"sha512-o0rWIsZigOfRAgBxl4puyd0t6YKzeAw9em/29Ag7lhCQfaaua/mDwnpE2PVzwqJ08N7/wqrgdjc2E0mwdSY2Tg==", crossorigin:"anonymous"},
@@ -84,6 +86,7 @@ export class LayoutComponent implements OnInit, AfterViewInit {
   this.func_masonry();
   this.func_popover();
   initCharts();
+  initUtils();
   }
 
   clickEvent(e): void {
