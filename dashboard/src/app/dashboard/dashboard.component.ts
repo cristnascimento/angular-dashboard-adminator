@@ -2,6 +2,8 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import {initCharts} from './initChars';
 import {initEasyPieChart} from './easyPieChart/index';
 import {initSparkLines} from './initSparkLines';
+import {initSkycons} from './initSkycons';
+import {initVectorMaps} from './vectorMaps/index';
 
 @Component({
   selector: 'app-dashboard',
@@ -18,7 +20,9 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     initCharts();
     initEasyPieChart();
-    //initSparkLines();
+    initSparkLines();
+    initSkycons();
+    initVectorMaps();
   }
 
 }
